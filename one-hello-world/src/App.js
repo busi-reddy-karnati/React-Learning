@@ -1,13 +1,15 @@
 import React from "react";
 import "./style.css";
+import Button from "./Button";
 
-function App() {
+const App = () => {
   return (
     <div>
       <h1>Hello World</h1>
-      <button className="button">Hi</button>
+      <Button title="Play Store" />
+      <Button title="App Store" />
     </div>
   );
-}
+};
 
 export default App;

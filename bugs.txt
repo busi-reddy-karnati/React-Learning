@@ -1,0 +1,2 @@
+Remember to export the Component before you can use it
+{} is the format to give parameters
