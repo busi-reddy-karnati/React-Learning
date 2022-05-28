@@ -1,0 +1,15 @@
+/************************************************
+VS code
+Don't use Mouse : haha
+Move a line : Alt up or Alt down
+
+/************************************************
+React isn't a framework
+
+React is component based : most important part
+
+Create app: 
+            npx create-react-app my-app
+            cd my-app
+            npm start: starts the development server
+
