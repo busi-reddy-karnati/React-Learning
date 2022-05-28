@@ -1,0 +1,13 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    text-align: center;
+}
+.button{
+    background-color: yellowgreen;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}

@@ -13,3 +13,28 @@ Create app:
             cd my-app
             npm start: starts the development server
 
+Folder Structure:
+    node_modeules has all the node dependencies
+    src is where your code goes
+    public has an html file that has root 
+    package.json has information about installed packages
+
+You can only return one component from a component
+1. Delete everything in src(one-hello-world) and start from scratch
+2. include an index.js and create a basic app(index.js is default)
+3. Let us add CSS
+    1. You can add style for independent element
+        style = {{textAlign:"center"}} Notice there are no -. We use Camel Case instead
+    2. Create style.css
+        write plain simple css here
+        eg.body{
+            background:#343434
+        }
+
+        Now import that
+        import "./style.css"
+
+        Giving class in JSX is different
+        className="className"
+
+        
