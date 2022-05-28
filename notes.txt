@@ -36,5 +36,7 @@ You can only return one component from a component
 
         Giving class in JSX is different
         className="className"
-
+4. Lets us move App code to another file App.js(create)
+    to import App, we should mention export default App in the botton
+    import App from "./App"
         
