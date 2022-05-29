@@ -1,2 +1,5 @@
 Remember to export the Component before you can use it
 {} is the format to give parameters
+
+class is not allowed in JSX, use className
+If you are using some cdn's, give them in index.html
