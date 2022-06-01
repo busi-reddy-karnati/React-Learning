@@ -42,4 +42,14 @@ You can only return one component from a component
 
 Curly braces demands return statement but () don't
 <Component param1="param1", param2="param2"/>
-        
+
+Props are the parameters that were passed
+props are synonymous for properties
+props used to pass data from one component to another
+
+ Since components are scattered around, to manage the variables of a class and variable, we use state
+ A central place to fetch data from
+
+
+ Never update the State variable directly
+ 
