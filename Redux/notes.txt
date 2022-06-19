@@ -1,0 +1,32 @@
+Just a state management library
+Can use with React, Angular, Vue etc
+
+If you want to change one component based on the other. 
+And components can be complexly linked
+
+Redux is inspired by Flux
+
+Redux is used to manage state centrally in an environment.
+Let's say there are 10 components and all of them can affect how the others are rendered.
+If you keep passing data and triggering changes for every action, that is going to make it complex
+To make that easy, Redux stores the information centrally called "Store"
+It makes data flow transparent and we can also figure out what, where and when it went wrong
+
+Classic example is a shopping cart. If we add an object, the cart should update and UI should change
+This can be possible with Redux. Because Redux has a central store of data and every object derives properties from there
+Pros:
+    Predictable output and flow of data
+    Centralised and easy to manage
+    Easy to debug 
+Cons:
+    Complexity of code: Redux relies on Functional programming principles and that can be daunting at first
+    Verbose: Redux can be pretty Verbose
+
+Functional Programming concepts
+FP is one of the Programming paradigms. 
+Consists of Functions that do one simple thing
+Functions as First-Class-Citizens
+    Assign to a variable,
+    pass as an argument,
+    return from other Functions
+    

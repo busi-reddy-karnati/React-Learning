@@ -53,3 +53,22 @@ props used to pass data from one component to another
 
  Never update the State variable directly
  
+ Tictac toe explains: 
+    Conditional Rendering, third party 
+    We also use React icons, reactstrap(Bootstrap for React), Toastify
+    Separate Components into folders
+ Winning logic for TicTacToe
+    Checking winning logic: There are 8 conditions: 3 horizontal checks, 3 vertical checks, 2 diagonal checks
+
+
+Context API
+This is used for Centralised State
+Before we used to have Redux. Now we have Context API
+
+
+Redux was used for Centralised State Management
+    Let's say I have A parent, A child and a Grandchild. Parent passes the props to the child but the child doesn't use that and passes that to 
+    grand child to be used. Instead of doing that, We can directly pass these without prop drilling, passing the props explicitly to every level
+
+Context API:
+    createContext:
