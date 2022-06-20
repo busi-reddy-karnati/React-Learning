@@ -1,0 +1,36 @@
+Steps for creating a redux app
+    1. Define a Store
+    2. Define Actions
+    3. Create a reducer
+    4. Setup the Store
+
+1. Design the store
+    npm i redux
+    {
+        bugs{
+            array of bugs, each with id, description, resolved
+        }
+        currentUser:{}
+    }
+
+2. Define Actions
+    1. Add a bugs
+    2. Mark a bug as resolved
+    3. Delete a bug
+
+3. Create a Reducer
+reducer.js
+
+4. Setup Store
+store.js
+
+Subscribing to the store
+If we subscribe, after every change in state, this is executed
+store.subscribe(()=>{
+    log(store.getState)
+})
+
+Make constatns in one place
+We should also create actions to dispatch diferent action so that there is a single place
+
+{hhandleSubmit } is from props. Catch it in forms
