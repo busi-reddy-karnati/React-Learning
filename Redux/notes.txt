@@ -76,12 +76,31 @@ Pure functions:
         Self documenting
         Easily testable 
         Concurency
-        cacheble(Like DP)
-
-
-In Functional Programming, everything is immutable
+        cacheble(Like
+         DP)yyyyyuyional Programming, everything is immutable
 But objects in JS aren't immutable. 
 Strings, const variables  
 Redux shouldn't mutate data as it can cause global state to change
 
  
+Enforcing Immutabiltiy: Since JS doesn't give immutability, we can use 
+Libraies:
+    immutable
+    immer
+    Mori
+
+
+
+    ===============================Redux===============================
+Redux's main feature is store which stores the global state.
+Store is an immutable object, we need to use special methods to update the data stored in a store
+Reducer is used to update the store. ideally each property to be changed should need a Reducer
+
+Syntax 
+reducer(store, action){
+    action is the event that occurs for this reduces to be fired
+    reducers are like handlers for actions
+    updated;
+}
+
+actions are dispactched to the store. The store using reducer modifies the store
