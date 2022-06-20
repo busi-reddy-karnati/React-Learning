@@ -29,4 +29,59 @@ Functions as First-Class-Citizens
     Assign to a variable,
     pass as an argument,
     return from other Functions
-    
+
+
+
+Higher Order Function
+    A function that takes a function as an argument, or returns a function
+    setTimeOut for example is a Higher Order Function
+    It accepts a function to be executed after a certain interval
+    And each function can be of many types. Defined in different ways
+function sayHello() {
+  console.log('Hello World!')
+}
+
+function functionHellO() {
+  return function () {
+    return 'Hello World'
+  }
+}
+let fn = sayHello
+fn()
+
+let fn2 = functionHellO()
+let message = fn2()
+console.log(message);
+
+
+Functional Composition
+Each component/function can be used inside another
+We can break down large chunks of data into smaller ones
+And Use a chain of functions f1(f2(f3()))
+Same this is pipe(f3,f2,f1) references not calls
+Or compose(f1,f2,f3)
+const transform = pipe(f3,f2,f1)
+transform(input)
+But let's say f1 needs more arguments than what f2 outputs, 
+
+
+But that looks messy, we can infact modify the said expression
+We use lodash to do that
+
+Pure functions:
+    This is when given input always give the same output
+    Don't have date, random values, etc
+    Don't rely on gloabl variables
+    Benefits:
+        Self documenting
+        Easily testable 
+        Concurency
+        cacheble(Like DP)
+
+
+In Functional Programming, everything is immutable
+But objects in JS aren't immutable. 
+Strings, const variables  
+Redux shouldn't mutate data as it can cause global state to change
+
+ 
